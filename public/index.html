@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hodlinfo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div id="head-content">
+        <div id="img-content">
+            <img src="./holdinfo.png" alt="HODLINFO.COM">
+        </div>
+        <div id="buttons-inr-btc">
+            <span>
+                <p>INR <span class="dropdown-arrow">&#9660;</span></p>
+                <p>BTC <span class="dropdown-arrow">&#9660;</span></p>
+            </span>
+        </div>
+        <div id="circle">
+            <p>58</p>
+        </div>
+        <div id="telegram">
+            <p>
+                <img src="./tele.png" alt="Telegram" class="telegram-icon">
+                Connect Telegram
+            </p>
+        </div>
+        <div id="toggle-me">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+
+    <!-- Table Section -->
+    <div class="table-wrapper">
+        <table class="fl-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Platform</th>
+                    <th>Last Traded Price</th>
+                    <th>Buy / Sell Price</th>
+                    <th>Difference</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody id="data-rows">
+                <!-- Rows will be dynamically populated here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <div><p style="border: 2px beige overflow: hidden;;">Add hodlinfo to home screen</p></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

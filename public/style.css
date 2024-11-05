@@ -1,0 +1,146 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+
+}
+
+#head-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+}
+
+#img-content img {
+  width: 150px;
+}
+
+#buttons-inr-btc p {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  color: #00aced;
+  cursor: pointer;
+}
+
+.dropdown-arrow {
+  font-size: 10px;
+}
+
+#circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #2e2e2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #3dc6c1;
+}
+
+#telegram {
+  display: flex;
+  align-items: center;
+  color: #3dc6c1;
+  cursor: pointer;
+}
+
+.telegram-icon {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* Toggle Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #3dc6c1;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+/* Table Styling */
+.table-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+}
+
+.fl-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.fl-table th, .fl-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.fl-table th {
+  background-color: #3dc6c1;
+  color: #121212;
+}
+
+.fl-table tr:nth-child(even) {
+  background-color: #2e2e2e;
+}
+
+.fl-table tr:hover {
+  background-color: #3a3a3a;
+}
+
+#data-rows tr td.savings-positive {
+  color: #00ff00;
+}
+
+#data-rows tr td.savings-negative
