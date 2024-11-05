@@ -1,4 +1,4 @@
-# QuadB Assignment - Cryptocurrency Price Tracker
+# QuadB - Cryptocurrency Price Tracker
 
 This project is a simple cryptocurrency price tracker inspired by the webpage [hodlinfo.com](https://hodlinfo.com). It uses **Node.js** and **Express** for the backend, **HTML** and **CSS** for the frontend, and **MongoDB** as the database.
 
